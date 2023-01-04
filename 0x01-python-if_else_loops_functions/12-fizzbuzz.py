@@ -7,5 +7,4 @@ def fizzbuzz():
             print("Buzz", end=" ")
         if i % 15 == 0:
             print("FizzBuzz", end=" ")
-        print(i, end=" ")
-    print("")
+        print(end="")
