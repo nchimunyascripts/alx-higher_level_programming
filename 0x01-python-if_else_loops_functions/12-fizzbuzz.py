@@ -5,6 +5,8 @@ def fizzbuzz():
             print("Fizz", end=" ")
         if i % 5 == 0:
             print("Buzz", end=" ")
-        if i % 15 == 0:
-            print("FizzBuzz", end=" ")
-        print(end="")
+        if i % 3 and i % 5:
+            print("{:d}".format(i), end=" ")
+        print(end=" ")
+
+fizzbuzz()
