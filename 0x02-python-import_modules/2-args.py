@@ -1,12 +1,9 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
-    import sys
-
-    args_from_cmd = sys.argv[1:]
-    if args_from_cmd == 0:
-        print("0 arguments")
-    else:
-        l = len(args_from_cmd)
-        print("{:d} arguments: ".format(l))
-        for i in range(len(args_from_cmd)):
-            print("{:d}: {:s}".format(i + 1, args_from_cmd[i]))
+    from sys import argv
+    l = len(argv)
+    print("{:d} {:s}{:s}".format(l - 1, "argument" if l <= 2 else "arguments",
+                                 "." if l == 1 else ":"))
+    for i, s in enumerate(argv):
+        if i > 0:
+            print("{:d}: {:s}".format(i, s))
