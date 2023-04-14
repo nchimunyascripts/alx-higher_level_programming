@@ -12,7 +12,7 @@ What you should learn from this project:
 ---
 
 ### [0. If it's not tested it doesn't work](./tests/)
-* All your files, classes and methods must be unit tested and be PEP 8 validated. 
+* All your files, classes and methods must be unit tested and be PEP 8 validated.
 
 
 ### [1. Base class](./models/base.py)
@@ -93,4 +93,4 @@ What you should learn from this project:
 ---
 
 ## Author
-* **Derrick Gee** - [kai-dg](https://github.com/kai-dg)
+* **Joseph Nchimunya** - [nchimunya-joseph](https://github.com/nchimunya-joseph/)

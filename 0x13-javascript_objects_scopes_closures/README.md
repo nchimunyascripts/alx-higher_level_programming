@@ -6,7 +6,7 @@ What you should learn from this project:
 * Why Javascript programming is amazing (don’t forget to tweet today, with the hashtag #javascriptisamazing :))
 * How to create an object in Javascript
 * What this means
-* What undefined means 
+* What undefined means
 * Why the variable type and scope is important
 * What is a closure
 * What is a prototype
@@ -60,4 +60,4 @@ What you should learn from this project:
 ---
 
 ## Author
-* **Derrick Gee** - [kai-dg](https://github.com/kai-dg)
+* **Joseph Nchimunya** - [nchimunya-joseph](https://github.com/nchimunya-joseph/)
