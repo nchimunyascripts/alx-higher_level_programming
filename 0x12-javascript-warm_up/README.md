@@ -80,4 +80,4 @@ What you should learn from this project:
 ---
 
 ## Author
-* **Derrick Gee** - [kai-dg](https://github.com/kai-dg)
+* **nchimunya Joseph** - [nchimunya-joseph](https://github.com/nchimunya-joseph/)
