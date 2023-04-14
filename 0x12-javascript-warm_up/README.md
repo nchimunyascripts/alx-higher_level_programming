@@ -80,4 +80,4 @@ What you should learn from this project:
 ---
 
 ## Author
-* **nchimunya Joseph** - [nchimunya-joseph](https://github.com/nchimunya-joseph/)
+* **Joseph Nchimunya** - [nchimunya-joseph](https://github.com/nchimunya-joseph/)
