@@ -60,4 +60,4 @@ What you should learn from this project:
 ---
 
 ## Author
-* **Derrick Gee** - [kai-dg](https://github.com/kai-dg)
+* **Joseph Nchimunya** - [nchimunya-joseph](https://github.com/nchimunya-joseph/)
