@@ -1,22 +1,21 @@
 #!/usr/bin/python3
-"""12-pascal_triangle Module
+"""
+module doc
 """
 
 
-def fact(i):
-    """Returns the factorial of a given integer i.e. i!"""
-    if i == 0:
-        return 1
-    return i * fact(i - 1)
-
-
-def comb(n, r):
-    """Returns the result of nCr"""
-    return fact(n) / (fact(r) * fact(n - r))
-
-
 def pascal_triangle(n):
-    """Returns a list of lists of integers representing
-    the Pascal’s triangle of n
     """
-    return [[int(comb(x, i)) for i in range(x + 1)] for x in range(n)]
+    function docs
+    """
+    final_list = []
+    if n <= 0:
+        return final_list
+    for i in range(1, n+1):
+        new_row = []
+        num = 1
+        for j in range(1, i+1):
+            new_row.append(num)
+            num = num * (i - j) // j
+        final_list.append(new_row)
+    return final_list

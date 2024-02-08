@@ -1,18 +1,25 @@
 #!/usr/bin/python3
-"""7-add_item.py"""
-import sys
+"""
+Module doc
+"""
+from sys import argv
+from os import path
 save_to_json_file = __import__('5-save_to_json_file').save_to_json_file
 load_from_json_file = __import__('6-load_from_json_file').load_from_json_file
 
-filename = "add_item.json"
 
-# load existing list from filename
-try:
-    result = load_from_json_file(filename)
-except Exception:
-    result = []
+def add_items():
+    """
+    function docs
+    """
+    filename = "add_item.json"
+    if path.isfile(filename):
+        final_list = load_from_json_file(filename)
+    else:
+        final_list = []
+    for i in range(1, len(argv)):
+        final_list.append(argv[i])
+    save_to_json_file(final_list, filename)
 
-result += sys.argv[1:]
 
-# write new list to filename
-save_to_json_file(result, filename)
+add_items()
